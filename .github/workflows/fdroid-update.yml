@@ -2,10 +2,7 @@ name: Auto Build F-Droid Repo Index
 
 on:
   push:
-    paths:
-      - 'repo/*.apk'
-  schedule:
-    - cron: '0 0 * * *'
+    branches: [ main, master ]
   workflow_dispatch:
 
 jobs:
@@ -14,27 +11,27 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Install F-Droid Server
         run: |
-          sudo apt update
-          sudo apt install -y fdroidserver
+          sudo apt-get update
+          sudo apt-get install -y fdroidserver
 
-      - name: Generate F-Droid Index
+      - name: Generate F-Droid Index & Key
         run: |
           fdroid update --create-key
           fdroid update --create-metadata
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name "Veltor Bot"
-          git config --global user.email "bot@veltor.store"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Auto-updated repo index and metadata" || exit 0
+          git commit -m "Auto-update F-Droid repo index" || exit 0
           git push
