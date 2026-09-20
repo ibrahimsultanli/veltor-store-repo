@@ -1,0 +1,284 @@
+{
+  "METADATA_VERSION": 20002,
+  "allow_disabled_algorithms": false,
+  "apkpure-3.20.51.apk": {
+    "hash": "69a2c33518e74409bca5063f17ab784ed92b5e6e51aed4d853910dd7c73e0049",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.GET_PACKAGE_SIZE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.BIND_ACCESSIBILITY_SERVICE",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+        null
+      ],
+      [
+        "android.permission.GET_INTENT_SENDER_INTENT",
+        null
+      ],
+      [
+        "android.permission.REORDER_TASKS",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "oppo.permission.OPPO_COMPONENT_SAFE",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.NOTIFICATION_SEND",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NOTIFICATION_POLICY",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.GET_PACKAGE_SIZE",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.MANAGE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "com.apkpure.aegon.permission.PROCESS_PUSH_MSG",
+        null
+      ],
+      [
+        "com.apkpure.aegon.permission.PUSH_PROVIDER",
+        null
+      ],
+      [
+        "android.permission.BROADCAST_STICKY",
+        null
+      ],
+      [
+        "com.huawei.android.launcher.permission.CHANGE_BADGE",
+        null
+      ],
+      [
+        "com.vivo.notification.permission.BADGE_ICON",
+        null
+      ],
+      [
+        "com.tencent.assistant.permission.A_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_CALENDAR",
+        null
+      ],
+      [
+        "android.permission.WRITE_CALENDAR",
+        null
+      ],
+      [
+        "android.permission.ACCESS_ORIENTATION",
+        null
+      ],
+      [
+        "com.apkpure.aegon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.REQUEST_DELETE_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        null
+      ],
+      [
+        "android.permission.USE_FULL_SCREEN_INTENT",
+        null
+      ],
+      [
+        "android.permission.EXPAND_STATUS_BAR",
+        null
+      ],
+      [
+        "android.permission.CHANGE_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+        null
+      ],
+      [
+        "com.apkpure.aegon.permission.TDOS_DIAGNOSE_BROADCAST",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "com.apkpure.aegon",
+    "versionCode": 3205137,
+    "name": "APKPure",
+    "versionName": "3.20.51",
+    "minSdkVersion": 19,
+    "targetSdkVersion": 32,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
+    "sig": "b46687327087a53bbc89aa9a2973aa5a",
+    "signer": "22311a95d67057b82318e23b3efd7cc878e190b8dcd55ac2e7bb745343957474",
+    "size": 20878645,
+    "apkName": "apkpure-3.20.51.apk",
+    "added": 1789905759.655471
+  },
+  "settings-1.9.apk": {
+    "hash": "4ad0dcb9cef6cbf8025fe788aea99f5819cb33423c72e72f6738396b3473754a",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.WRITE_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "com.apps.settings",
+    "versionCode": 10,
+    "name": "Settings App",
+    "versionName": "1.9",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 32,
+    "sig": "772ef0e99a3f6ed0ab160c19e58fdf09",
+    "signer": "2bb5a22b755ac58bdbeb229f6c434759fbfcf0019a41dba457317111c46fc25a",
+    "size": 6536367,
+    "apkName": "settings-1.9.apk",
+    "added": 1789905760.268497
+  },
+  ".gitkeep": {
+    "name": ".gitkeep",
+    "apkName": ".gitkeep",
+    "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "hashType": "sha256",
+    "ipfsCIDv1": null,
+    "versionCode": 0,
+    "versionName": "01ba471",
+    "packageName": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "size": 1,
+    "added": 1789905760.268815
+  }
+}
