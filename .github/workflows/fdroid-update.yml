@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate F-Droid Index & Key
         run: |
-          fdroid update --create-metadata
+          fdroid update -v --create-metadata
 
       - name: Commit and Push Changes
         run: |
