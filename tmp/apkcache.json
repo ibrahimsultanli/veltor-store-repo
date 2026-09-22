@@ -279,6 +279,115 @@
     "versionName": "01ba471",
     "packageName": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "size": 1,
-    "added": 1789905760.268815
+    "added": 1790097018.934708
+  },
+  "app.smarttube.fdroid_2428.apk": {
+    "hash": "abc6fc4fb36cdd651fc478ccd1ac6da7774b92bf2a9bfb13ef8d79bfeedd71f3",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "app.smarttube.fdroid.ACCESS_VIDEO_DATA",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.QUICKBOOT_POWERON",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.ACTION_MANAGE_OVERLAY_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.REQUEST_DELETE_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        null
+      ],
+      [
+        "com.android.providers.tv.permission.READ_EPG_DATA",
+        null
+      ],
+      [
+        "com.android.providers.tv.permission.WRITE_EPG_DATA",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "app.smarttube.fdroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.software.leanback",
+      "android.hardware.usb.host"
+    ],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "app.smarttube.fdroid",
+    "versionCode": 2428,
+    "name": "SmartTube F-Droid",
+    "versionName": "32.38",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 34,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
+    "sig": "139291591cb50c265ebda91969100f29",
+    "signer": "33791872daccf601a31bd73d329245f80f69044f76e1a794586fb857f09deaa8",
+    "size": 39140168,
+    "apkName": "app.smarttube.fdroid_2428.apk",
+    "added": 1790097018.934049
   }
 }
