@@ -23,10 +23,18 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fdroidserver
 
+      - name: Download APKs from Releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p repo
+          for tag in $(gh release list --limit 50 --json tagName -q '.[].tagName'); do
+            gh release download "$tag" --pattern "*.apk" --dir repo/ --clobber || true
+          done
+
       - name: Generate F-Droid Index & Key
         run: |
           fdroid update --create-metadata
-          
 
       - name: Commit and Push Changes
         run: |
