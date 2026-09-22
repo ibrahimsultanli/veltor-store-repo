@@ -21,7 +21,7 @@ jobs:
       - name: Install F-Droid Server
         run: |
           sudo apt-get update
-          sudo apt-get install -y fdroidserver
+          sudo apt-get install -y fdroidserver aapt
 
       - name: Download APKs from Releases
         env:
